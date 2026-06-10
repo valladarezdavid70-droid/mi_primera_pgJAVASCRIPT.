@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Empresa Ficticia - Inicio</title>
+        <link rel="stylesheet" href="./CSS/Styles.css">
+    </head>
+    
+    <body>
+        <!-- ================= NAVBAR ================= -->
+        <header>
+            <nav>
+                <!-- Logo de la empresa -->
+                <div class="logo-img">
+                    <img src="./assets/images/Ddigital´-horizontal.png" alt="Logo Empresa Ficticia">
+                </div>
+                
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./VIEWS/galeria.html">Galeria</a></li>
+                    <li><a href="./VIEWS/presupuesto.html">Presupuestos</a></li>
+                    <li><a href="./VIEWS/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- ================= HERO ================= -->
+        <section id="hero" class="hero">
+            <h1>Bienvenido a nuestra empresa</h1>
+            <p>Soluciones innovadoras para un mundo digital.</p>
+        </section>
+        
+        <!-- ================= SERVICIOS ================= -->
+        <section id="servicios" class="servicios">
+            <h2>Nuestros Servicios</h2>
+            
+            <div class="grid">
+                <article>
+                    <h3>Consultoría</h3>
+                    <p>Te ayudamos a impulsar tu negocio con estrategias digitales.</p>
+                </article>
+                
+                <article>
+                    <h3>Desarrollo Web</h3>
+                    <p>Webs modernas, rápidas y adaptadas a tus necesidades.</p>
+                </article>
+                
+                <article>
+                    <h3>Marketing Digital</h3>
+                    <p>Mejora tu presencia online y llega a más clientes.</p>
+                </article>
+            </div>
+        </section>
+        
+        <!-- ================= NOTICIAS ================= -->
+        <section id="noticias" class="noticias">
+            <h2>Noticias del Mundo Digital</h2>
+            <!-- Botón para cargar noticias -->
+            <button id="btn-cargar-noticias" class="btn-noticias">
+                Ver Noticias
+            </button>
+            
+            <div id="noticias-mensaje"></div>
+            <!-- Vista de lista -->
+            <div id="contenedor-noticias" class="grid-noticias"></div>
+            <!-- Vista de detalle -->
+            <div id="detalle-noticia" class="detalle oculto">
+                <button id="btn-volver" class="btn-volver">← Volver</button>
+                <div id="detalle-contenido"></div>
+            </div>
+        </section>
+
+        
+        <!-- ================= CONTACTO ================= -->
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <p>Dirección: Avenida Innovación 45, Valencia</p>
+            <p>Email: info@empresa.com</p>
+            <p>Teléfono: +34 676 123 456</p>
+        </section>
+        
+        <!-- ================= FOOTER ================= -->
+        <footer class="footer">
+            
+            <div class="footer-content" >
+                
+                <!-- Redes sociales -->
+                <div class="footer-social">
+                    <a href="#"><img src="./assets/images/facebook_logo_icon_147291.ico" alt="Facebook"></a>
+                    <a href="#"><img src="./assets/images/twitter_x_logo_icon_258917.ico" alt="Twitter"></a>
+                    <a href="#"><img src="./assets/images/instagram_108043.ico" alt="Instagram"></a>
+                    <a href="#"><img src="./assets/images/linkedin.png" alt="LinkedIn"></a>
+                </div>
+                
+                <!-- Dirección -->
+                <div class="footer-info">
+                    <p><strong>Empresa Ficticia</strong></p>
+                    <p>Avenida Innovación 45, Valencia</p>
+                    <p>Tel: +34 676 123 456</p>
+                </div>
+                
+                <!-- Aviso legal -->
+                <div class="footer-legal">
+                    <a href="https://valladarezdavid70-wyqxa.wordpress.com/">Aviso Legal</a>
+                </div>
+
+            </div>
+            
+            <div class="footer-copy">
+                <p>&copy; 2024 Empresa Ficticia. Todos los derechos reservados.</p>
+            </div>
+    
+        </footer>
+        
+        <!-- Script para cargar noticias -->
+        <script src="./JS/script.js"></script>
+    </body>
+</html>
+
+
+
