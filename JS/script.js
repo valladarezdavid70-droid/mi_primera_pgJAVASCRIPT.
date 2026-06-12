@@ -34,7 +34,7 @@ function cargarNoticias() {
       mensaje.textContent = "";
     })
     .catch(() => {
-      mensaje.textContent = "Error cargando noticias.";
+      mensaje.textContent = "Error cargando noticias :(";
       mensaje.style.color = "red";
     });
 }
